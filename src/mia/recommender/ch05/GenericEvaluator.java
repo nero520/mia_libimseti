@@ -67,7 +67,7 @@ public class GenericEvaluator {
        //int at, double relevanceThreshold, double evaluationPercentage) 
        //at - as in, "precision at 5". The number of recommendations to consider when evaluating precision, etc.
        //relevanceThreshold - items whose preference value is at least this value are considered "relevant" for the purposes of computations 
-	   IRStatistics stats = PRevaluator.evaluate(PRrecommenderBuilder, null, model, null, 1000000, GenericRecommenderIRStatsEvaluator.CHOOSE_THRESHOLD, 1.0);
+	   IRStatistics stats = PRevaluator.evaluate(PRrecommenderBuilder, null, model, null, 10, GenericRecommenderIRStatsEvaluator.CHOOSE_THRESHOLD, 1.0);
 	   return stats;
 	}
 	
