@@ -1,13 +1,23 @@
 This project enables the evaluation of:
+
 -Absolute difference
+
 -Precision
+
 -Recall
+
 -F1 
+
 for Mahout's main similarity metrics:
+
 -Euclidean distance
+
 -Pearson correlation
+
 -Tanimoto coefficient
+
 -LogLikelihood
+
 As well as some recommendation examples.
 
 It was proven for libimseti.cz dating site's data: 
