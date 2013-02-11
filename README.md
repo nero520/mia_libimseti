@@ -18,7 +18,7 @@ for Mahout's main similarity metrics:
 
 -LogLikelihood
 
-As well as some recommendation examples.
+on user-based recommenders. It also runs some recommendation examples.
 
 It was proven for libimseti.cz dating site's data: 
 
